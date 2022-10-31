@@ -1,0 +1,119 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+Body{
+  background-color: rgb(51, 51, 51);
+  overflow-x: hidden;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  border-style: groove;
+  border-width: 1vh;
+  margin-bottom:1vh;
+  box-shadow:4px 4px black;
+  background-color: bisque;
+}
+
+#header{
+  background-color:rgb(26, 62, 161);
+  width: 100%;
+  margin:0;
+  color: white;
+  text-shadow: 1px 1px black;
+  border-bottom: solid;
+}
+
+#navbar{
+  height:10vh;
+  background-color: rgb(40, 0, 77);
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1vh;
+  border-color: antiquewhite;
+  border-bottom-style: ridge;
+  box-shadow: 2px 4px black;
+  font-weight: bold;
+  
+}
+
+#title{
+  margin:0;
+  margin-left:1vw;
+  color: antiquewhite;
+  font-size: 44px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#header{
+  width:45vw;
+  height: 5vh;
+  margin:0;
+  color: antiquewhite;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#headtext{
+  display: flex;
+  align-items: center;
+  padding:0;
+  padding-left:0.5vw;
+  text-shadow: 2px 2px black;
+  margin:0;
+  line-height: 5vh;
+  
+}
+
+#Image{
+  width: 45vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bottom-text{
+  width: 114vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bold;
+  align-items: center;
+  height:3vh;
+}
+
+#like{
+  font-size: 4vh;
+  line-height:3vh;
+  color: blue;
+}
+
+a:link {
+  color:black;
+}
+
+a:visited{
+  color:black;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
