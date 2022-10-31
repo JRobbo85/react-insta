@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-insta/static/css/main.9b368b22.css",
+    "main.js": "/react-insta/static/js/main.08f6096b.js",
+    "index.html": "/react-insta/index.html",
+    "main.9b368b22.css.map": "/react-insta/static/css/main.9b368b22.css.map",
+    "main.08f6096b.js.map": "/react-insta/static/js/main.08f6096b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b368b22.css",
+    "static/js/main.08f6096b.js"
+  ]
+}
